@@ -7,22 +7,20 @@
     
 </head>
 <body>
-    <h1>Favourite Programming Languages</h1>
-    <form>
-        <div>
-            <label for="color">Color</label>
-            <input type="color" name="color" id="color">
-        </div>
-    <br>
-    <div>
-        <label for="date">Date</label>
-        <input type="date" name="date" id="color">
-    </div>
-    <div>
-        <label for="week">Week</label>
-        <input type="week" name="week" id="week">
-    </div>
-    </form>
-   
+   <h1>Datalist</h1>
+   <label for="favLanguage">Favourite Programming Language</label>
+   <input list="languages" id="favLanguage" name="favLanguage">
+   <datalist id="languages">
+    <option value="Javascript"></option>
+    <option value="Java"></option>
+    <option value="Python"></option>
+   </datalist>
+   <br>
+   <input type="time" list="PopularHours">
+   <datalist id="PopularHours">
+    <option value="10:00"></option>
+    <option value="10:00"></option>
+    <option value="10:00"></option>
+   </datalist>
 </body>
 </html>
