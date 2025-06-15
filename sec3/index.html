@@ -7,20 +7,35 @@
     
 </head>
 <body>
-   <h1>Datalist</h1>
-   <label for="favLanguage">Favourite Programming Language</label>
-   <input list="languages" id="favLanguage" name="favLanguage">
-   <datalist id="languages">
-    <option value="Javascript"></option>
-    <option value="Java"></option>
-    <option value="Python"></option>
-   </datalist>
-   <br>
-   <input type="time" list="PopularHours">
-   <datalist id="PopularHours">
-    <option value="10:00"></option>
-    <option value="10:00"></option>
-    <option value="10:00"></option>
-   </datalist>
+   <header>
+    <h1>Apartment Search</h1>
+   </header>
+   <main>
+    <form>
+        <div>
+            <label for="location">Location</label>
+            <input type="text" name="location" id="location">
+        </div>
+        <div>
+            <label for="price">Price</label>
+            <input type="range" name="price" id="price">
+        </div>
+        <div>
+            <label for="bedrooms">Bedroom</label>
+            <input type="number" name="bedrooms" id="bedrooms">
+        </div>
+        <div>
+            <label for="pets">Pets allowed</label>
+            <input type="checkbox" name="pets" id="pets"/>
+        </div>
+        <div>
+            <label for="date">Date Available</label>
+            <input type="date" name="date" id="date"/>
+        </div>
+        <div>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+   </main>
 </body>
 </html>
