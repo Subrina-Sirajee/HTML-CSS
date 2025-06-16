@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Arial';
     font-size: 18px;
@@ -7,12 +12,9 @@ body{
 .box{
     background-color: darkblue;
     color: white;
-    padding: 20px;
     border: 3px solid green;
-    margin:20px;
 }
 .box{
     background: coral;
     max-width: 400px;
-    margin: 20px
 }
