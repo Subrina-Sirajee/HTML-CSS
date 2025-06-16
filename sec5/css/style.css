@@ -1,8 +1,32 @@
-h1{
+body{
+    font-family: 'Arial';
+}
+/*class selector*/
+.sporty{
     color:brown;
     font-size: 50px;
+}
+.casual{
+    color: green;
+    font-size: 30px;
+}
+.formal{
+    color: red;
+    font-size: 40px;
 }
 p{
     color: blue;
     font-size: 20px;
+}
+
+/*id selector*/
+#container {
+    background-color: chocolate;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.casual,.formal {
+    text-align: center;
 }
