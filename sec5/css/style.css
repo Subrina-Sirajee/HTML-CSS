@@ -9,3 +9,6 @@ h2{
     font-variant:small-caps;
     text-decoration: underline;
 }
+a:hover{
+    color:red;
+}
