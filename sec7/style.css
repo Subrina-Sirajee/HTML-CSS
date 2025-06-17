@@ -66,3 +66,9 @@ a{
     background-color: #27264b;
     color: #fff;
 }
+@media (max-width: 768px){
+    .pricing{
+        flex-direction: column;
+        display: block;
+    }
+}
