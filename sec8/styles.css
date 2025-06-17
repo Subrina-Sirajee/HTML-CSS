@@ -6,8 +6,21 @@
 body{
     font-family: 'Arial';
 }
+p{
+    padding: 2rem;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+}
+.card{
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 50 cqw;
+}
 
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
     .widescreen {
         background: coral;
     }
@@ -17,4 +30,12 @@ body{
     .normal{
         background: lightblue;
     }
-}
+} */
+ /* main p{
+    background: lightgreen;
+ }
+ @container (max-width: 992px){
+    main p {
+        background: lightblue;
+    }
+ } */
