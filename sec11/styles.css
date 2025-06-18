@@ -9,6 +9,7 @@ body{
 }
 :root{
     --primary-color: #fcf5e9;
+    --dark-color: #333;
     --container-normal: 1100px;
     --container-wide: 1400px;
     --container-narrow: 900px;
@@ -25,6 +26,11 @@ img{
 }
 .bg-primary{
     background: var(--primary-color);
+    color: #333;
+}
+.bg-dark{
+    background: var(--dark-color);
+    color: #fff;
 }
 .container{
     max-width: var(--container-normal);
