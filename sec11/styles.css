@@ -66,8 +66,37 @@ img{
     line-height: 1.4;
     font-weight: normal;
 }
+.gallery-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gallery-item{
+    width: calc(33.333% - 20px);
+}
+.gallery-item:hover{
+    opacity: 0.9;
+}
+.footer{
+    border-top: 1px solid #aaa;
+    padding: 2rem 1.5rem;
+    margin-top: 2 rem;
+}
+.footer .footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer h4{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.footer a{
+    margin: 0.2rem;
+}
 @media (max-width: 768px) {
-    .header .header-flex {
+    .header .header-flex,
+    .footer .footer-flex{
         flex-direction: column;
         gap: 1.5rem;
     }
