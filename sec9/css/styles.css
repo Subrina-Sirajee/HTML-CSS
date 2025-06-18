@@ -80,3 +80,31 @@ body{
 .text-container{
     font-size: 18px;
 }
+@media (max-width: 768px){
+    .header, .header .header-right{
+        flex-direction: column;
+        .main-content{
+            flex-direction: column-reverse;
+            justify-content: start;
+            margin: auto;
+        }
+    }
+}
+.main-content{
+    flex-direction: column-reverse;
+    justify-content: start;
+    margin: auto;
+    padding: 50px;
+}
+.main-content form,
+.main-content .text-container{
+    width: 100%;
+}
+.main-content h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.4;
+}
+.main-content p{
+    display: none;
+}
