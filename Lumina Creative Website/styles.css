@@ -22,7 +22,7 @@ ul{
     list-style: none;
 }
 img{
-    max-width: 10%;
+    max-width: 20%;
 }
 .bg-primary{
     background: var(--primary-color);
@@ -32,6 +32,28 @@ img{
     background: var(--dark-color);
     color: #fff;
 }
+.bg-dark .bd-primary{
+    padding: 0 0.3rem;
+}
+.btn{
+    display: inline-block;
+    padding: 1 rem 2rem;
+    border: 1px solid #333;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 .container{
     max-width: var(--container-normal);
     margin: 0 auto;
@@ -102,8 +124,6 @@ img{
 }
 /* Services */
 .services{
-    background: #333;
-    color:#fff;
     padding: 3rem 0 4rem;
 }
 .services-flex{
@@ -124,6 +144,26 @@ img{
 .team-flex{
     display: flex;
     gap: 1.4rem;
+}
+.contact{
+    padding: 3rem 0 4rem;
+}
+.contact p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.contact textarea{
+    height: 200px;
+}
+.contact input:focus,
+.contact textarea:focus{
+    outline: 0;
+}
+.contact button{
+    width: 100%;
+}
+.form-group{
+    margin: 2rem 0;
 }
 @media (max-width: 768px) {
     .header .header-flex,
