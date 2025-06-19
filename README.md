@@ -5,6 +5,7 @@ Welcome to the repository for [Modern HTML & CSS From The Beginning 2.0]! This r
 Project 1: Pricing Card  
 Project 2: Lumina Creative Website  
 Project 3: Bono App  
+License
 
 ---
 
@@ -12,23 +13,23 @@ Project 3: Bono App
 ![Project Screenshot](screenshots/pricing_card.PNG)
 
 Live URL: [View Project 1 Live](https://pricing-card-e0e6dc.netlify.app/)
-GitHub Repo: Project 1 Repository
+GitHub Repo: [Project 1 Repository](https://github.com/Subrina-Sirajee/HTML-CSS/tree/main/Pricing%20Card)
 
 ---
 
 ## Project 2: Lumina Creative Website 💻  
-_Project 2 Screenshot_
+![Project Screenshot](screenshots/lumina.PNG)
 
-Live URL: View Project 2 Live  
-GitHub Repo: Project 2 Repository
+Live URL: [View Project 2 Live](https://lumina-creative-83cd5a.netlify.app/) 
+GitHub Repo: [Project 2 Repository](https://github.com/Subrina-Sirajee/HTML-CSS/tree/main/Lumina%20Creative%20Website)
 
 ---
 
 ## Project 3: Bono App 🧩  
-_Project 3 Screenshot_
+![Project Screenshot](screenshots/bonoapp.PNG)
 
-Live URL: View Project 3 Live  
-GitHub Repo: Project 3 Repository
+Live URL: [View Project 3 Live](https://bonoapp.netlify.app/)  
+GitHub Repo: [Project 3 Repository](https://github.com/Subrina-Sirajee/HTML-CSS/tree/main/Bono%20App)
 
 ---
 
