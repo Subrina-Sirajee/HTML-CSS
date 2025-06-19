@@ -11,7 +11,7 @@ Project 3: Bono App
 ## Project 1: Pricing Card 💳  
 ![Project Screenshot](screenshots/pricing_card.PNG)
 
-Live URL: [View Project 1 Live]((https://pricing-card-e0e6dc.netlify.app/))  
+Live URL: [View Project 1 Live](https://pricing-card-e0e6dc.netlify.app/)
 GitHub Repo: Project 1 Repository
 
 ---
