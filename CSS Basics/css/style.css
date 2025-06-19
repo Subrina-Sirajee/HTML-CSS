@@ -1,0 +1,15 @@
+body{
+    font-family: 'Arial';
+    font-size: 18px;
+    line-height: 1.6;
+}
+.flex-container{
+    background: #ccc;
+    display: flex;
+}
+.flex-item{
+    height: 200px;
+    width: 200px;
+    background: coral;
+    border: 1px solid black;
+}
