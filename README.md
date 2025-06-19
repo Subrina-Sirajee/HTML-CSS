@@ -13,6 +13,7 @@ License
 ![Project Screenshot](screenshots/pricing_card.PNG)
 
 Live URL: [View Project 1 Live](https://pricing-card-e0e6dc.netlify.app/)
+
 GitHub Repo: [Project 1 Repository](https://github.com/Subrina-Sirajee/HTML-CSS/tree/main/Pricing%20Card)
 
 ---
@@ -21,6 +22,7 @@ GitHub Repo: [Project 1 Repository](https://github.com/Subrina-Sirajee/HTML-CSS/
 ![Project Screenshot](screenshots/lumina.PNG)
 
 Live URL: [View Project 2 Live](https://lumina-creative-83cd5a.netlify.app/) 
+
 GitHub Repo: [Project 2 Repository](https://github.com/Subrina-Sirajee/HTML-CSS/tree/main/Lumina%20Creative%20Website)
 
 ---
@@ -29,6 +31,7 @@ GitHub Repo: [Project 2 Repository](https://github.com/Subrina-Sirajee/HTML-CSS/
 ![Project Screenshot](screenshots/bonoapp.PNG)
 
 Live URL: [View Project 3 Live](https://bonoapp.netlify.app/)  
+
 GitHub Repo: [Project 3 Repository](https://github.com/Subrina-Sirajee/HTML-CSS/tree/main/Bono%20App)
 
 ---
