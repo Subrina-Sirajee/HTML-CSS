@@ -2,15 +2,18 @@ body{
     font-family: Arial;
 }
 .container{
-    max-width: 600px;
+    position: relative;
+    max-width: 900px;
     margin: 130px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #f4f4f4;
+    height: 600px;
 }
 .logo{
-    max-width: 100%;
-    transition: all 0.5s;
+    max-width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .logo:hover{
     transform: rotate(-90deg);
