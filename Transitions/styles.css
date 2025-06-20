@@ -3,9 +3,19 @@ body{
 }
 .container{
     max-width: 600px;
-    margin: 30px auto;
+    margin: 130px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.btn{
+.logo{
+    max-width: 100%;
+    transition: all 0.5s;
+}
+.logo:hover{
+    transform: rotate(-90deg);
+}
+/* .btn{
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -22,4 +32,4 @@ body{
     border-radius: 50px;
     opacity: 0.5;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
+} */
