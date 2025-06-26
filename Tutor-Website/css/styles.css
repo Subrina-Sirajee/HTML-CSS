@@ -60,6 +60,9 @@ img {
   color: #fff;
   border-color: #fff;
 }
+.section {
+  margin: 4rem 0;
+}
 
 /* Section Header */
 .section-header {
@@ -229,6 +232,23 @@ img {
   font-size: 1rem;
   font-weight: 700;
   margin: 0.5rem 0;
+}
+
+/* Chapter Cards */
+.chapter-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1rem 0 4rem;
+}
+.chapter-cards img {
+  width: 130px;
+  margin-top: 1rem;
+}
+.chapter-cards h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 1rem 0;
 }
 
 /* Media Queries */
